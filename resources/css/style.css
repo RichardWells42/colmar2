@@ -1,0 +1,1058 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+header {
+    height: 64px;
+    max-width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header-left {
+    display: inline-flex;
+    align-items: center;
+    padding: 0px 0px 0px 24px;
+}
+
+.header-right {
+    display: inline-flex;
+    align-items: center;
+    padding: 0px 24px 0px 0px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    font-family: "Arial", "Verdana", sans-serif;
+}
+
+.logo {
+    font-family: "Montserrat", "Verdana", sans-serif;
+    font-size: 32px;
+}
+
+.colmar {
+    color: black;
+}
+
+.academy {
+    color: hsl(30, 7%, 52%);
+}
+
+.menu-option{
+    padding: 0px 0px 0px 16px;
+}
+
+header .mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 760px) {
+    .header-left {
+      display: none;
+    }
+
+    header .header-right {
+        display: none; 
+    }
+
+    header .menu-option {
+        display: none;
+    }
+  
+    header .mobile {
+      background-color: white;
+      display: block;
+      width: 100%;
+    }
+  
+    header .mobile ul {
+      padding-top: 21.3px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+    }
+  
+    header .mobile li {
+      padding: 0;
+    }
+}
+
+/* Main content */
+
+.main-content {
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-content-left {
+    display: flex;
+    width: 60%;
+    margin: 32px 8px 32px 24px;
+}
+
+.banner {
+    max-width: 100%;
+    min-width: 480px;
+  
+}
+
+.main-content-right {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: ;
+    align-items: center;
+}
+
+
+.bannertext {
+    margin-left: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 175px;
+    padding-bottom: 60px;
+    font-size: 75px;
+
+}
+
+.bannertext2 {
+    margin-left: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    padding-bottom: 60px;
+
+}
+
+.start {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 148px;
+    padding-right: 148px;
+    font-size: 40px;
+    color: white;
+    background-color: darkgray;
+}
+
+
+
+
+/* Main content 2 */
+
+.main-content2 {
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.main-content2-left {
+    width: 66%;
+    display: inline-block;
+    background-color: white;
+    padding: 0;
+}
+
+.infomain {
+    width: 118.5%;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+
+}
+
+.infomaintext {
+    font-weight: bold;
+    font-size: 45px;
+    margin: 0 0 24px 24px;
+}
+
+.quote {
+    font-size: 24px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+}
+
+.author {
+    font-size: 20px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+}
+
+
+.main-content2-right {
+    height: 100%;
+    width: 35%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    padding-left:24px;
+    
+}
+
+.orientation-img {
+    padding: 32px 16px 16px 16px;
+    display: inline-block;
+    justify-content: center;
+    height: 100%;
+    width: 55%;
+    border-left: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-left: 214px;
+}
+
+.campus-img {
+    padding: 32px 16px 16px 16px;
+    display: flex;
+    justify-content: ;
+    height: 100%;
+    width: 55%;
+    border-left: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-left: 214px;
+}
+
+.our-guest-lecture-img {
+    background-color: grey;
+    padding: 32px 16px 16px 16px;
+    display: flex;
+    justify-content: ;
+    height: 100%;
+    width: 55%;
+    border-left: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-left: 214px;
+}
+
+
+
+.main-content2-right2 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.orientation-text {
+    background-color: white;
+    font-size: 22px;
+    height: 30.2%;
+    display: flex;
+    justify-content: ;
+    flex-direction: column;
+    text-align: left;
+    border-bottom: 1px solid grey;
+}
+
+.orientation-date {
+    margin-top: 48px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.date {
+    font-size: ;
+}
+
+.orientation-read-more {
+    font-size: 30px;
+    color: blue;
+}
+
+
+.campus-text {
+    background-color: white;
+    font-size: 22px;
+    height: 30.2%;
+    display: flex;
+    justify-content: ;
+    flex-direction: column;
+    text-align: left;
+    border-bottom: 1px solid grey;
+}
+.our-campus {
+    margin-top: 48px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+
+}
+.find-campus {
+    font-size: ;
+}
+
+.campus-read-more {
+    font-size: 30px;
+    color: blue;
+}
+
+
+.guest-lecture-text {
+    background-color: grey;
+    font-size: 22px;
+    height: 30.1%;
+    display: flex;
+    justify-content: ;
+    flex-direction: column;
+    text-align: left;
+    border-bottom: 1px solid grey;
+}
+
+.our-guest-lecture {
+    margin-top: 48px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.oliver {
+    font-size: ;
+}
+
+.guest-lecture-read-more {
+    font-size: 30px;
+    color: blue;
+}
+
+.main-content2-mobile {
+    display: none;
+}
+
+
+@media only screen and (max-width: 760px) {
+    .main-content2 {
+        display: none;
+    }
+
+    .main-content2-mobile {
+        display: block;
+    }
+
+    .orientation-mobile-img {
+        margin-top: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 16px;
+    }
+
+    .orientation-date-mobile {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 16px;
+        margin-left: 32px;
+        margin-bottom: 16px;
+    }
+
+    .date-mobile {
+        font-size: 30px;
+        margin-left: 32px;
+        margin-bottom: 16px;
+    }
+
+    .orientation-read-more-mobile {
+        font-size: 30px;
+        color: blue;
+        margin-left: 32px;
+    }
+
+    .campus-mobile-img {
+        margin-top: 64px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 16px;
+    }
+
+    .our-campus-mobile {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 16px;
+        margin-left: 32px;
+        margin-bottom: 16px;
+    }
+
+    .find-campus-mobile {
+        font-size: 30px;
+        margin-left: 32px;
+        margin-bottom: 16px;
+    }
+
+    .campus-read-more-mobile {
+        font-size: 30px;
+        color: blue;
+        margin-left: 32px;
+    }
+
+    .our-guest-lecture-mobile-img {
+        margin-top: 64px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 16px;
+    }
+
+    .our-guest-lecture-mobile {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 16px;
+        margin-left: 32px;
+        margin-bottom: 16px;
+    }
+
+    .oliver-mobile {
+        font-size: 30px;
+        margin-left: 32px;
+        margin-bottom: 16px;
+    }
+
+    .guest-lecture-read-more-mobile {
+        font-size: 30px;
+        color: blue;
+        margin-left: 32px;
+        margin-bottom: 32px;
+    }
+}
+
+
+/* main content 3 */
+
+.main-content3 {
+    height: ;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+.start-learning {
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 65px;
+    font-weight: bolder;
+}
+
+
+.m-c3-features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px
+    padding: 0;
+    background-color: grey;
+    flex-wrap: wrap;
+     
+}
+
+.feature {
+    flex: 1;
+    padding: ;
+    margin-left: 72px;
+    width: 30%;
+}
+
+.center {
+    text-align: left;
+}
+
+.img-container {
+    overflow: hidden;
+    width: ;
+    height: auto;
+    margin: ;
+}
+
+.content {
+    width: 90.8%;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 39px;
+    background-color: white;
+}
+
+.feature2 {
+    flex: 1;
+    padding: ;
+    margin: ; 
+    width: 30%;
+}
+
+.center2 {
+    text-align: left;
+}
+
+.img-container2 {
+    overflow: hidden;
+    width: ;
+    height: auto;
+    margin: ;
+}
+
+.content2 {
+    width: 90.7%;
+    padding-top: 16px;
+    padding-left: 16px;
+    margin-bottom: 32px;
+    background-color: white;
+}
+
+.feature3 {
+    flex: 1;
+    padding: ;
+    margin-right:72px; 
+    width: 30%;
+}
+
+.center3 {
+    text-align: left;
+}
+
+.img-container3 {
+    overflow: hidden;
+    width: ;
+    height: auto;
+    margin: ;
+}
+
+.content3 {
+    width: 90.8%;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 39px;
+    background-color: white;
+}
+
+
+.m-c3-features2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    padding: ;
+    background-color: grey;
+    flex-wrap: wrap;
+}
+
+.feature4 {
+    flex: 1;
+    padding: ;
+    margin-left: 72px; 
+    width: 30%;
+}
+
+.center4 {
+    text-align: left;
+}
+
+.img-container4 {
+    overflow: hidden;
+    width: ;
+    height: auto;
+    margin: ;
+}
+
+.content4 {
+    width: 90.8%;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 39px;
+    margin-bottom: 64px;
+    background-color: white;
+}
+
+.feature5 {
+    flex: 1;
+    padding: ;
+    width: 30%;
+}
+
+.center5 {
+    text-align: left;
+}
+
+.img-container5 {
+    overflow: hidden;
+    width: ;
+    height: auto;
+    margin: ;
+}
+
+.content5 {
+    width: 90.7%;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 39px;
+    margin-bottom: 64px;
+    background-color: white;
+}
+
+.feature6 {
+    flex: 1;
+    padding: ;
+    margin-right: 72px; 
+    width: 30%;
+}
+
+.center6 {
+    text-align: left;
+}
+
+.img-container6 {
+    overflow: hidden;
+    width: ;
+    height: auto;
+    margin: ;
+}
+
+.content6 {
+    width: 90.8%;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 39px;
+    margin-bottom: 64px;
+    background-color: white;
+}
+
+.main-content3-mobile {
+   display: none;
+}
+
+.start-learning-mobile {
+    display: none;
+}
+
+.main-content3b-mobile {
+    display: none;
+}
+
+.main-content3c-mobile {
+    display: none;
+}
+
+.computer-art-mobile {
+    display: none;
+}
+
+.main-content3d-mobile {
+    display: none;
+}
+
+.design-mobile {
+    display: none;
+}
+
+.main-content3e-mobile {
+    display: none;
+}
+
+.data-mobile {
+    display: none;
+}
+
+.main-content3f-mobile {
+    display: none;
+}
+
+.business-mobile {
+    display: none;
+}
+
+.main-content3g-mobile {
+    display: none;
+}
+
+.marketing-mobile {
+    display: none;
+}
+
+
+@media only screen and (max-width: 760px) {
+    .main-content3 {
+        display: none;
+    }
+
+    .m-c3-features {
+        display: none;
+    }
+
+    .m-c3-features2 {
+        display: none;
+    }
+
+    .main-content3-mobile {
+        border-top: 1px solid grey;
+        height: ;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .start-learning-mobile {
+        display: flex;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        font-size: 65px;
+        font-weight: bolder;
+    }
+
+    .main-content3b-mobile {
+        height: ;
+        width: 100%;
+        background-color: grey;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 8px;
+    }
+
+    .software-engineering-mobile {
+        color: white;
+        display: flex;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .main-content3c-mobile {
+        height: ;
+        width: 100%;
+        background-color: grey;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 8px;
+    }
+
+    .computer-art-mobile {
+        color: white;
+        display: flex;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .main-content3d-mobile {
+        height: ;
+        width: 100%;
+        background-color: grey;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 8px;
+    }
+
+    .design-mobile {
+        color: white;
+        display: flex;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .main-content3e-mobile {
+        height: ;
+        width: 100%;
+        background-color: grey;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 8px;
+    }
+
+    .data-mobile {
+        color: white;
+        display: flex;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .main-content3f-mobile {
+        height: ;
+        width: 100%;
+        background-color: grey;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 8px;
+    }
+
+    .business-mobile {
+        color: white;
+        display: flex;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .main-content3g-mobile {
+        height: ;
+        width: 100%;
+        background-color: grey;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 64px;
+    }
+
+    .marketing-mobile {
+        color: white;
+        display: flex;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        font-size: 45px;
+        font-weight: bold;
+    }
+}
+
+
+/* main content 4 */
+
+.main-content4 {
+    height: ;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.thesis-exhibit {
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 64px;
+    font-size: 65px;
+    font-weight: bolder;
+}
+
+.main-content4b {
+    width: 100%;
+    background-color: white;
+    display: flex;
+
+}
+
+.main-content4b-left {
+    width: 65%;
+    display: inline-block;
+    background-color: white;
+    padding: 0;
+}
+
+.video {
+    width: 119.8%;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 32px;
+}
+
+.reimagine-urban {
+    font-weight: bold;
+    font-size: 45px;
+    margin: 0 0 24px 24px;
+}
+
+.quote2 {
+    font-size: 24px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+}
+
+.main-content4b-right { 
+    height: 100%;
+    width: 35%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    padding-left:0;
+    flex-wrap: wrap;
+}
+
+.fisma {
+    padding: 16px 16px 16px 16px;
+    display: inline-block;
+    justify-content: ;
+    height: auto;
+    width: 52%;
+    margin-left: 240px;
+    background-color: grey;
+}
+
+.now-and-then {
+    padding: 16px 16px 16px 16px;
+    display: flex;
+    justify-content: ;
+    height: auto;
+    width: 52%;
+    margin-left: 240px;
+
+}
+
+.main-content4b-right2 {
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.fisma-text {
+    font-size: 22px;
+    height: 30.4%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    background-color: grey;
+    padding-right: 80px;
+    padding-left: 16px;
+}
+
+.fisma-d-and-p {
+    margin-top: 48px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.designer-showcase {
+
+}
+
+.now-and-then-text {
+    font-size: 22px;
+    height: 30.4%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    background-color: white;
+    padding-right: 80px;
+    padding-left: 16px;
+}
+
+.n-and-t {
+    margin-top: 48px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.research-study {
+
+}
+
+.main-content4a {
+    display: none;
+}
+
+.thesis-exhibit2 {
+    display: none;
+}
+
+@media only screen and (max-width: 760px) {
+    .reimagine-urban {
+        display: none;
+    }
+
+    .quote2 {
+        display: none;
+    }
+
+    .main-content4 {
+        display: none;
+    }
+
+    .thesis-exhibit {
+        display: none;
+    }
+
+    .main-content4a {
+        height: ;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid grey;
+    }
+
+    .thesis-exhibit2 {
+        display: flex;
+        margin-top: 32px;
+        margin-bottom: 64px;
+        font-size: 65px;
+        font-weight: bolder;
+    }
+
+    .main-content4b-right {
+        display: none;
+    }
+
+    .main-content4b-right2 {
+        display: none;
+    }
+
+
+
+}
+
+
+
+/* Footer */
+
+.footer {
+    border-top: 1px solid grey;
+    display: flex;
+    background-color: white;
+}
+
+.footer-left {
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-bottom: 64px;
+    width: 50%;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 64px;
+    width: 50%;
+}
+
+@media only screen and (max-width: 760px) {
+    .footer-right {
+        display: none;
+    }
+}
