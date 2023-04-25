@@ -332,7 +332,7 @@ header .mobile {
 }
 
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1180px) {
     .main-content2 {
         display: none;
     }
@@ -674,7 +674,7 @@ header .mobile {
 }
 
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1180px) {
     .main-content3 {
         display: none;
     }
@@ -974,7 +974,7 @@ header .mobile {
     display: none;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1180px) {
     .reimagine-urban {
         display: none;
     }
@@ -1044,7 +1044,7 @@ header .mobile {
     width: 50%;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1180px) {
     .footer-right {
         display: none;
     }
