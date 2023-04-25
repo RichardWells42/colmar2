@@ -55,7 +55,7 @@ header .mobile {
     display: none;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1024px) {
     .header-left {
       display: none;
     }
@@ -940,7 +940,7 @@ header .mobile {
 }
 
 .designer-showcase {
-
+    font-size: ;
 }
 
 .now-and-then-text {
@@ -963,7 +963,7 @@ header .mobile {
 }
 
 .research-study {
-
+    font-size: ;
 }
 
 .main-content4a {
@@ -1015,8 +1015,6 @@ header .mobile {
     .main-content4b-right2 {
         display: none;
     }
-
-
 
 }
 
