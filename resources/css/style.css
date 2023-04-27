@@ -87,6 +87,7 @@ header .mobile {
     }
 }
 
+
 /* Main content */
 
 .main-content {
@@ -148,6 +149,79 @@ header .mobile {
     background-color: darkgray;
 }
 
+.main-content-mobile {
+    display: none;
+}
+
+.bannertext-mobile {
+    display: none;
+}
+
+.bannertext2-mobile {
+    display: none;
+}
+
+.start-mobile-background {
+    display: none;
+}
+
+.start-mobile {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1180px) {
+    .main-content {
+        display: none;
+    }
+
+    .main-content-mobile {
+        width: 100%;
+        background-color: grey;
+        display: flex;
+        justify-content: center;  
+    }
+
+    .bannertext-mobile {
+        padding-left: 16px;
+        display: flex;
+        align-items: center;
+        padding-top: 36px;
+        padding-bottom: 60px;
+        font-size: 45px;
+        background-color: grey;
+    }
+
+    .bannertext2-mobile {
+        padding-left: 16px;
+        display: flex;
+        align-items: center;
+        font-size: 45px;
+        padding-bottom: 60px;
+        background-color: grey;
+    }
+
+    .start-mobile-background {
+        display: flex;
+        background-color: grey;
+    }
+
+    .start-mobile {
+        display: flex;
+        align-items: center;
+        height: fit-content;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 148px;
+        padding-right: 148px;
+        margin-left: 16px;
+        margin-bottom: 32px;
+        font-size: 40px;
+        color: white;
+        background-color: darkgray;
+    }
+
+}
 
 
 
@@ -689,7 +763,6 @@ header .mobile {
 
     .main-content3-mobile {
         border-top: 1px solid grey;
-        height: ;
         width: 100%;
         background-color: white;
         display: flex;
@@ -705,8 +778,7 @@ header .mobile {
     }
 
     .main-content3b-mobile {
-        height: ;
-        width: 100%;
+        width: 97%;
         background-color: grey;
         display: flex;
         justify-content: flex-start;
@@ -726,8 +798,7 @@ header .mobile {
     }
 
     .main-content3c-mobile {
-        height: ;
-        width: 100%;
+        width: 97%;
         background-color: grey;
         display: flex;
         justify-content: flex-start;
@@ -747,8 +818,7 @@ header .mobile {
     }
 
     .main-content3d-mobile {
-        height: ;
-        width: 100%;
+        width: 97%;
         background-color: grey;
         display: flex;
         justify-content: flex-start;
@@ -768,8 +838,7 @@ header .mobile {
     }
 
     .main-content3e-mobile {
-        height: ;
-        width: 100%;
+        width: 97%;
         background-color: grey;
         display: flex;
         justify-content: flex-start;
@@ -789,8 +858,7 @@ header .mobile {
     }
 
     .main-content3f-mobile {
-        height: ;
-        width: 100%;
+        width: 97%;
         background-color: grey;
         display: flex;
         justify-content: flex-start;
@@ -810,8 +878,7 @@ header .mobile {
     }
 
     .main-content3g-mobile {
-        height: ;
-        width: 100%;
+        width: 97%;
         background-color: grey;
         display: flex;
         justify-content: flex-start;
@@ -835,7 +902,6 @@ header .mobile {
 /* main content 4 */
 
 .main-content4 {
-    height: ;
     width: 100%;
     background-color: white;
     display: flex;
@@ -854,7 +920,6 @@ header .mobile {
     width: 100%;
     background-color: white;
     display: flex;
-
 }
 
 .main-content4b-left {
@@ -974,6 +1039,10 @@ header .mobile {
     display: none;
 }
 
+.video-mobile {
+    display: none;
+}
+
 @media only screen and (max-width: 1180px) {
     .reimagine-urban {
         display: none;
@@ -988,6 +1057,10 @@ header .mobile {
     }
 
     .thesis-exhibit {
+        display: none;
+    }
+
+    .video {
         display: none;
     }
 
@@ -1006,6 +1079,16 @@ header .mobile {
         margin-bottom: 64px;
         font-size: 65px;
         font-weight: bolder;
+    }
+
+    .video-mobile {
+        width: 100%;
+        display: flex;
+        overflow: hidden;  
+    }
+
+    .main-content4b-left {
+        display: none;
     }
 
     .main-content4b-right {
